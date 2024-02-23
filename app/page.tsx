@@ -1,5 +1,5 @@
 import Column from '@/components/shared/Column';
-import Widget from '@/components/shared/Widget';
+import Widget from '@/components/shared/widget/Widget';
 import { configuration } from '@/config';
 import Image from 'next/image';
 

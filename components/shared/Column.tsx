@@ -19,7 +19,7 @@ const sizes: any = {
 
 function Column({ heading, size, children }: Props) {
   return (
-    <div className={`${sizes[size]} min-w-[300px]`}>
+    <div className={`${sizes[size]} min-w-[300px]`} data-testid='column'>
       <Card className='h-full bg-blue-50 border-0 shadow-xl'>
         <CardHeader>
           <CardTitle>{heading}</CardTitle>
