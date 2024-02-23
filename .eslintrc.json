@@ -16,12 +16,15 @@
     "react/require-default-props": "off",
     "jsx-quotes": "off",
     "react/react-in-jsx-scope": "off",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "no-else-return": "off",
+    "react/no-array-index-key": "off",
+    "object-curly-newline": "off"
   },
   "ignorePatterns": [
     "'!.*",
     "dist",
     "node_modules",
-    "/src/components/ui/*"
+    "/components/ui/*"
   ]
 }
